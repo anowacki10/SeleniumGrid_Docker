@@ -47,7 +47,7 @@ public class mainPage{
             wait.until(ExpectedConditions.visibilityOf(location));
             location.sendKeys(Location_text);
             }
-            catch (Exception e){
+            catch (Exception e ){
                 throw new RuntimeException("Something is wrong!");
             }
         }
