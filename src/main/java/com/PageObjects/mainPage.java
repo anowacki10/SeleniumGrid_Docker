@@ -60,7 +60,7 @@ public class mainPage{
             submit.click();
             Thread.sleep(1000);
             }
-            catch (Exception e){
+            catch (Exception e ){
                 throw new RuntimeException("Something is wrong!");
             }
         }
