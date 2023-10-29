@@ -47,4 +47,4 @@ Check out the samples with gifs and screenshots of the built environment.
 <br>![Alt Text](.Attachments/parallel_test_GIF.gif) </br>
 
 ### Docker-compose configuration 
-<i>https://github.com/anowacki10/Docker_SeleniumGrid/blob/master/docker-compose.yml</i>
+<i>[Docker File](https://github.com/anowacki10/Docker_SeleniumGrid/blob/master/docker-compose.yml)</i>
