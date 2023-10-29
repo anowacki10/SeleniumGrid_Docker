@@ -8,7 +8,7 @@ Parallel &amp; Cross-Browser testing project supported by Selenium Grid and Dock
 
 
 
-## About :books:
+## About
 <pre>
 Project contain multi-container testing app.
 Docker containers are build and configurate automatticly from docker-compose.yml file.
@@ -19,7 +19,7 @@ Check out the samples with gifs and screenshots of the built environment.
 </pre>
 * [Samples](#samples)
 
-## Technology Stack ✨💫
+## Technology Stack
 -  <b><i>Maven</b></i> -  software bulding tool
 -  <b><i>JAVA</b></i> -  main Language
 -  <b><i>Docker</b></i> -  separate environments implementation
@@ -27,4 +27,4 @@ Check out the samples with gifs and screenshots of the built environment.
 -  <b><i>WebDriver</b></i> -  Selenium web framework used to execute remote UI tests
 
 
-## Samples :floppy_disk:
+## Samples
