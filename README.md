@@ -48,3 +48,5 @@ Check out the samples with gifs and screenshots of the built environment.
 
 ### Docker-compose configuration 
 <i>[Docker File](https://github.com/anowacki10/Docker_SeleniumGrid/blob/master/docker-compose.yml)</i>
+
+<br>![Alt text](.Attachments/docker-compose.png)</br>
