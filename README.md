@@ -7,6 +7,7 @@ Parallel &amp; Cross-Browser testing project supported by Selenium Grid and Dock
 * [Samples](#samples)
   + [Grid Network Overwiev](#grid-network-overview)
   + [Parallel Test Execution [GIF] ](#parallel-test-execution)
+  + [Docker-compose configuration [LINK]](#docker-compose-configuration)
 
 
 
@@ -44,3 +45,6 @@ Check out the samples with gifs and screenshots of the built environment.
    <b>[GIF]</b>
 
 <br>![Alt Text](.Attachments/parallel_test_GIF.gif) </br>
+
+### Docker-compose configuration 
+<i>https://github.com/anowacki10/Docker_SeleniumGrid/blob/master/docker-compose.yml</i>
