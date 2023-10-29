@@ -33,7 +33,7 @@ Check out the samples with gifs and screenshots of the built environment.
 
 ## Samples
 
-- ### Grid Network Overwiev
+- ### Grid Network Overview
   
 <br>![Alt Text](.Attachments/grid_overwiev.png) </br>
 <pre></pre>
