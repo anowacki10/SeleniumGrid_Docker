@@ -1,7 +1,7 @@
 # Docker_SeleniumGrid
 Parallel &amp; Cross-Browser testing project supported by Selenium Grid and Docker 	:whale:
 <pre></pre>
-## Content:
+## Content: 
 * [About](#about-project)
 * [Technology Stack](#technology-stack)
 * [Requirements](#requirements)
