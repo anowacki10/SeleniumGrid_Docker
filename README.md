@@ -5,8 +5,8 @@ Parallel &amp; Cross-Browser testing project supported by Selenium Grid and Dock
 * [About](#about-project)
 * [Technology Stack](#technology-stack)
 * [Samples](#samples)
-  + [Grid Network Overwiev [GIF] ](#grid-network-overview-gif)
-  + [Parallel Test Execution [GIF] ](#parallel-test-execution-gif)
+  + [Grid Network Overwiev](#grid-network-overview)
+  + [Parallel Test Execution [GIF] ](#parallel-test-execution)
 
 
 
@@ -33,12 +33,14 @@ Check out the samples with gifs and screenshots of the built environment.
 
 ## Samples
 
-- ### Grid Network Overwiev [GIF]
+- ### Grid Network Overwiev
+  
 <br>![Alt Text](.Attachments/grid_overwiev.png) </br>
 <pre></pre>
 <br>![Alt Text](.Attachments/gird_sessions.png)  </br>
 
 
-- ### Parallel Test Execution [GIF]
+- ### Parallel Test Execution
+   <b>[GIF]</b>
 
 <br>![Alt Text](.Attachments/parallel_test_GIF.gif) </br>
