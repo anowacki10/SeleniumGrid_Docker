@@ -48,7 +48,7 @@ Check out the samples with gifs and screenshots of the built environment.
 
 
 
-## Samples
+## Samples 
 
 - ### Grid Network Overview
   
