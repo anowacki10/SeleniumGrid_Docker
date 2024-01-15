@@ -16,7 +16,7 @@ public class offersPage {
 
 
         // DROP-DOWN "CATEGORY"
-        static By dropCATEGORY = By.xpath("//*[@id=\"mainContent\"]/div[2]/form/div[3]/div[1]/div/div[1]/div/div/div/div");
+        static By dropCATEGORY = By.cssSelector("#mainContent > div.css-1nvt13t > form > div:nth-child(3) > div.css-tx3aze > div > div.css-c3onvz");
 
         // CATEGORY "Praca"
         static By dropCATEGORY_praca = By.xpath("//*[@id=\"mainContent\"]/div[2]/form/div[3]/div[1]/div/div[1]/div/div/div[2]/ul/li[5]/div");
@@ -29,11 +29,12 @@ public class offersPage {
 
 
         // OTHERS
-        static By CONTRACT_TYPE = By.xpath("//div[@class='css-c5h5gn']//div[1]//div[1]//div[1]//div[1]//div[1]");
-        static By WORKLOAD = By.xpath("//div[@class='css-tx3aze']//div[4]//div[1]//div[1]//div[1]//div[1]//span[1]");
-        static By EXPERIENCE = By.xpath("//div[@class='css-1d90tha']//div[5]//div[1]//div[1]//div[1]//div[1]//span[1]");
+        static By CONTRACT_TYPE = By.xpath("//*[@id=\"mainContent\"]/div[2]/form/div[3]/div[1]/div/div[3]/div/div/div/div");
+        static By WORKLOAD = By.xpath("//*[@id=\"mainContent\"]/div[2]/form/div[3]/div[1]/div/div[4]/div/div/div/div");
+        static By EXPERIENCE = By.xpath("//*[@id=\"mainContent\"]/div[2]/form/div[3]/div[1]/div/div[5]/div/div/div/div");
         static By COUNTER = By.xpath("//span[@data-testid='total-count']");
         static By SUBCATEGORY = By.xpath("//div[@class='css-12snx2d']");
+
 
 
         public static void set_dropCATEGORY_dropSUBCATEGORY(WebDriver driver, String category_name, String sub_category_name) throws InterruptedException {

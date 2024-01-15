@@ -28,7 +28,7 @@ public class WebDriverFactory {
             DesiredCapabilities chromeCap = new DesiredCapabilities();
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--incognito");
-            chromeOptions.addArguments("--headless");
+            //chromeOptions.addArguments("--headless");
             chromeOptions.addArguments("--disable-gpu");
             chromeCap.setCapability(CapabilityType.BROWSER_NAME, "chrome");
             chromeCap.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
@@ -57,7 +57,7 @@ public class WebDriverFactory {
 
             EdgeOptions edgeOptions = new EdgeOptions();
             edgeOptions.setCapability("ms:inPrivate", true);
-            edgeOptions.addArguments("headless");
+            //edgeOptions.addArguments("headless");
             driver = new RemoteWebDriver(new URL(gridURL), edgeOptions);
             driver.manage().window().maximize();
             driver.get(appURL);

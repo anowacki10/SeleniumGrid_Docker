@@ -40,17 +40,5 @@ services:
     depends_on:
       - HubService
 
-  FirefoxService:
-    image: selenium/node-firefox:4.14.1-20231020
-    shm_size: "2gb"
-    ports:
-      - "5900"
-      - "7900"
-    environment:
-      - SE_EVENT_BUS_HOST=seleniumHub
-      - SE_EVENT_BUS_PUBLISH_PORT=4442
-      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-      - SE_NODE_MAX_SESSIONS=1
-    depends_on:
-      - HubService
+
 

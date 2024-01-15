@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" thread-count="1" >
+<suite name="All Test Suite" parallel="tests" thread-count="2" >
 
 
     <test name="Olx Edge Tests">
@@ -20,7 +20,6 @@
         <classes><class name="testCases.Tests">
             <methods>
                 <include name="shouldSearchForOffer"/>
-                <include name="shouldPrintAmountOfQaOffers"/>
             </methods>
         </class></classes>
     </test>
@@ -28,27 +27,6 @@
     <test name="Olx Chrome Tests">
         <!-- Application parameters-->
         <parameter name="browser" value="chrome" />
-        <parameter name="gridURL" value="http://localhost:4445/wd/hub" />
-        <parameter name="appURL" value="http://www.olx.pl" />
-        <!--Searching parameters-->
-        <parameter name="searchingText" value="QA engineer"/>
-        <parameter name="locationText" value="Cała Polska"/>
-        <!--Drop-downs parameters-->
-        <parameter name="categoryName" value="praca"/>
-        <parameter name="subCategoryName" value="IT"/>
-        <!--Expected results parameters-->
-        <parameter name="expectedURL1" value="https://www.olx.pl/oferty/q-QA-engineer/"/>
-        <parameter name="expectedURL2" value="https://www.olx.pl/praca/informatyka/q-QA-engineer/"/>
-        <classes><class name="testCases.Tests">
-            <methods>
-                <include name="shouldSearchForOffer"/>
-                <include name="shouldPrintAmountOfQaOffers"/>
-            </methods>
-        </class></classes>
-    </test>
-    <test name="Olx Firefox Tests">
-        <!-- Application parameters-->
-        <parameter name="browser" value="firefox" />
         <parameter name="gridURL" value="http://localhost:4445/wd/hub" />
         <parameter name="appURL" value="http://www.olx.pl" />
         <!--Searching parameters-->

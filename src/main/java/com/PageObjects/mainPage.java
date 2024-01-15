@@ -12,9 +12,9 @@ public class mainPage{
 
 
         static By COOKIES = By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]");
-        static By SEARCHER = By.xpath("//input[@id='headerSearch']");
-        static By LOCATION = By.xpath("//input[@id='cityField']");
-        static By SUBMIT = By.xpath("//input[@id='submit-searchmain']");
+        static By SEARCHER = By.xpath("//*[@id=\"search\"]");
+        static By LOCATION = By.xpath("//*[@id=\"searchmain-container\"]/div[1]/div/div/div/form/div/div[2]/div/div/div[1]/div/div/input");
+        static By SUBMIT = By.xpath("//*[@id=\"searchmain-container\"]/div[1]/div/div/div/form/div/div[3]/button");
 
 
         public static void COOKIES_click(WebDriver driver){
